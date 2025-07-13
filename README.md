@@ -38,12 +38,13 @@ Input/
 └── subject_data.csv     # Metadata file used in regression
 ```
 
+You can use the sample `Input/` provided in this repository.
+
 #### Example output structure (empty to start):
 ```
 Output/
 ```
 
-You can use the sample `Input/` provided in this repository.
 
 ---
 
