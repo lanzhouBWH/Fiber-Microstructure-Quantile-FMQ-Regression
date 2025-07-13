@@ -35,7 +35,7 @@ You need two folders:
 ```
 Input/
 ├── FiberTracts/         # Folder with VTP tractography files (*.vtp)
-└── subject_data.csv     # Metadata file used in regression
+└── Covariates.csv     # Metadata file used in regression
 ```
 
 You can use the sample `Input/` provided in this repository.
