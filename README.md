@@ -2,7 +2,7 @@
 
 This repository provides a Dockerized pipeline implementing the *Fiber Microstructure Quantile (FMQ) Regression* model, as proposed in:
 
-**Lan, Z., Wang, Y., Zhang, J., Zhang, H., Lin, W., & Niethammer, M. (2024).**  
+**Lan, Z., et al.,**  
 *Fiber microstructure quantile regression: A framework for diffusion MRI tract analysis using scalar-on-fiber regression.*  
 **Imaging Neuroscience.** https://doi.org/10.1162/imag_a_00569
 
