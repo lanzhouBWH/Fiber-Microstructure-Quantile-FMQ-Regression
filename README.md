@@ -10,7 +10,7 @@ This pipeline accepts vtp-format tractography data and subject metadata, and out
 
 ---
 
-## Run with Docker in Personal Computers
+## Run with Docker (Personal Computer Users)
 
 ### 1. 🐳 Install and Pull Docker
 
