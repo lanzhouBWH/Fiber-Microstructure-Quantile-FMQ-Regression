@@ -1,6 +1,14 @@
 # Fiber Microstructure Quantile (FMQ) Regression
 
-This repository provides a Dockerized pipeline for performing quantile regression on diffusion fiber microstructure data. It uses VTP tractography files and subject metadata to estimate quantile-specific regression models.
+This repository provides a Dockerized pipeline implementing the *Fiber Microstructure Quantile (FMQ) Regression* model, as proposed in:
+
+**Lan, Z., Wang, Y., Zhang, J., Zhang, H., Lin, W., & Niethammer, M. (2024).**  
+*Fiber microstructure quantile regression: A framework for diffusion MRI tract analysis using scalar-on-fiber regression.*  
+**Imaging Neuroscience.** https://doi.org/10.1162/imag_a_00569
+
+The FMQ model enables microstructural statistical analysis for white matter fiber tracts using diffusion MRI data. It estimates quantile-specific effects of clinical or demographic covariates on scalar microstructural measures (e.g., FA), providing a novel statistical approach for analyzing white matter bundles from periphery to core.
+
+This pipeline accepts vtp-format tractography data and subject metadata, and outputs quantile regression coefficient estimates, standard error, and p-values.
 
 ---
 
@@ -96,8 +104,4 @@ singularity run \
 > Note: Replace paths with full directories. `-B` is used to bind host directories into the container.
 
 ---
-
-## 📌 Tip for Cluster Users
-
-Ensure you have Singularity installed (typically available via your module system), and that `/tmp` or `$HOME` has enough space for image builds if you use `singularity build`.
 
