@@ -2,9 +2,7 @@
 
 This repository provides a Dockerized pipeline implementing the *Fiber Microstructure Quantile (FMQ) Regression* model, as proposed in:
 
-**Zhou Lan, Yuqian Chen, Jarrett Rushmore, Leo Zekelman, Nikos Makris, Yogesh Rathi, Alexandra J Golby, Fan Zhang, Lauren J O’Donnell,**  
-*Fiber microstructure quantile regression: A framework for diffusion MRI tract analysis using scalar-on-fiber regression.*  
-**Imaging Neuroscience.** https://doi.org/10.1162/imag_a_00569
+Lan, Z., Chen, Y., Rushmore, J., Zekelman, L., Makris, N., Rathi, Y., Golby, A.J., Zhang, F. and O’Donnell, L.J., 2025. Fiber microstructure quantile (FMQ) regression: A novel statistical approach for analyzing white matter bundles from periphery to core. Imaging Neuroscience, 3, p.imag_a_00569. https://doi.org/10.1162/imag_a_00569
 
 The FMQ model enables microstructural statistical analysis for white matter fiber tracts using diffusion MRI data. It estimates quantile-specific effects of clinical or demographic covariates on scalar microstructural measures (e.g., FA), providing a novel statistical approach for analyzing white matter bundles from periphery to core.
 
@@ -86,6 +84,7 @@ If you're using a high-performance computing (HPC) system that supports [Singula
 ### Step 1: Pull and convert Docker image
 
 ```bash
+module load singularity
 singularity build fmq_regression.sif docker://lanzhou1126/fmq_regression:latest
 ```
 
