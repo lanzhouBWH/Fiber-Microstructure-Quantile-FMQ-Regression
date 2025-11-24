@@ -8,6 +8,8 @@ The FMQ model enables microstructural statistical analysis for white matter fibe
 
 This pipeline accepts vtp-format tractography data and subject metadata, and outputs quantile regression coefficient estimates, standard error, and p-values.
 
+The orignal python codes were in "fmq_regresssion"
+
 ---
 
 ## Run with Docker (Personal Computer Users)
